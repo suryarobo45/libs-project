@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="i.ico">
+      <title>Libs | Reach Us</title>
+      <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+      <script src="main.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   </head>
+   <body style="background-color: rgb(85, 80, 80);">
+      <style>
+         #hiring_container{
+         background-image: url(hire.jpg);
+         background-size:cover;
+         background-repeat: no-repeat;
+         }
+         .resume_para{
+         font-size: 15px;  
+         }
+         .btn.submit-btn{
+            background-color: rgb(15, 15, 224);
+            color: white;
+            padding: 1em 1.7em;
+            &.btn.submit-btn:hover{
+                background-color: black;
+            }
+         }
+         .contact-info{
+            color: rgb(71, 168, 42);
+         }
+         .contact-para{
+            color: rgb(192, 182, 182);
+            padding-left: 10px;
+         }
+         .contact-span{
+            padding-top: 55px;
+         }
+         .email-span,.location-span{
+            padding-top: 20px;
+         }
+         .contact-span span,.email-span span,.location-span span{
+            color: rgb(211, 197, 197);
+         }
+         h6.bottom-up-links a{
+            margin-left: 2.5em;
+            text-decoration: none;
+            font-family:Georgia, Times, serif;
+            color: #eff1f6;
+         }
+         h6.bottom-up-links a:hover{
+            color: #e683ba;
+         }
+         @media (max-width:426px){
+         #hiring_container{
+         padding: 10px !important;
+         }
+         .resume_para{
+         font-size: 13px;
+         width: 200%;
+         }
+         }
+         @media (max-width:995px){
+            div#inner-layer-contact.col-lg-5.col-8{
+                border-left:none!important;
+                
+            }
+            .fa-solid.fa-plane-up.fa-bounce.fa-2xl{
+               display:block !important;
+               position: absolute;
+               z-index: -1 !important;
+            }
+         }
+         
+      </style>
+      <div class="container-xxl" id="media1">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="row">
+                  <div class="fixed-top">
+                     <div class="row">
+                        <div class="col-lg-12">
+                           <ul class="list-inline d-flex justify-content-between" id="das">
+                              <li>
+                                 <a href="/">
+                                 <img src="https://leadibs.com/assets/images/logo/logo.png" id="Libs-logo"
+                                    alt="libs Logo">
+                                 </a>
+                              </li>
+                              <li class="dropdown" id="bar-menu">
+                                 <div class="hamburger" id="hamburger">
+                                    <div class="span" id="span"></div>
+                                    <div class="span" id="span"></div>
+                                    <div class="span" id="span"></div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="container-fluid" id="container-fluid">
+                     <div class="row">
+                        <div class="col-lg-12 col-sm-6">
+                           <div class="blankbox">
+                              <ul class="list-unstyled pt-5">
+                                 <li class="d-flex"><a class="btn" href="#">Login</a></li>
+                                 <li class="d-flex"><a class="btn" href="#" id="btn">Join X-money</a></li>
+                                 <li class="d-flex"><a href="#" class="head1">products</a></li>
+                                 <li class="d-flex">
+                                    <a class="pay-req " href="">
+                                       Pay request <i class="fas fa-arrow-right"></i><br>
+                                       <p>invoice anyone Request in crpto Get paid in fiat</p>
+                                    </a>
+                                 </li>
+                                 <li class="d-flex">
+                                    <a href="#" class="pay-req">
+                                       Cripto pay<i class="fas fa-arrow-right"></i><br>
+                                       <p>Accept cripto payments for your business seemlesly</p>
+                                    </a>
+                                 </li>
+                                 <li class="d-flex">
+                                    <a href="#" class="pay-req">
+                                       pay links<i class="fas fa-arrow-right"></i><br>
+                                       <p>share a payment link.Get paid in crypto or fiat</p>
+                                    </a>
+                                 </li>
+                                 <li class="d-flex">
+                                    <a href="#" class="pay-req">
+                                       Fiat pay<i class="fas fa-arrow-right"></i><br>
+                                       <p>Accept fiat payments at the most competitive rates</p>
+                                    </a>
+                                 </li>
+                                 <li class="d-flex"><a href="#" class="head1">Solutions</a></li>
+                                 <li class="d-flex">
+                                    <a href="#" class="pay-req">
+                                       Shop&E-commerce<i class="fas fa-arrow-right"></i><br>
+                                       <p>Enable to flat criptocureency payments in your store</p>
+                                    </a>
+                                 </li>
+                                 <li class="d-flex">
+                                    <a href="#" class="pay-req">
+                                       travel <i class="fas fa-arrow-right"></i><br>
+                                       <p>Discover the world with popular currencies:flat7cripto!</p>
+                                    </a>
+                                 </li>
+                                 <li class="d-flex">
+                                    <a href="#" class="pay-req">
+                                       Digital Nomod <i class="fas fa-arrow-right"></i><br>
+                                       <p>Enjoy working remotely worldwide on your own terms</p>
+                                    </a>
+                                 </li>
+                                 <li class="d-flex"><a href="#" class="head1">Blog</a></li>
+                                 <li class="d-flex pb-5"><a href="#" class="head1">Growth</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-xxl ">
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="row" id="media2">
+               <div class="col-lg-12 col-12 ">
+                  <nav class="navbar navbar-expand-md navbar-dark fixed-top "
+                     style="background-color: rgb(56, 52, 52);border-radius: 20px;margin-top: 5px;">
+                     <ul class="list-inline" id="nav_main">
+                        <li class="list-inline-item t "><a href="/"> <img
+                           src="https://leadibs.com/assets/images/logo/logo.png" loading="eager"
+                           alt="Logo xMoney White" class="image_absolute-contain is-color-logo"
+                           id="Libs-logo"></a>
+                        </li>
+                        <li class="list-inline-item "><a href="#" style="margin-left: 4em;"
+                           id="overview_btn">Quick
+                           view</a>
+                        </li>
+                        <li class="list-inline-item dropdown">
+                           <a class="dropdown " data-toggle="dropdown" id="overview_btn" href="#">Regarding
+                           Us</a>
+                           <ul class="dropdown-menu">
+                              <li><a class="anger" href="">Pay request <i
+                                 class="fas fa-arrow-right"></i></a><br>
+                                 <a href="" class="bg">invoice anyone Request in<br>crpto Get paid in
+                                 fiat</a>
+                              </li>
+                              <li><a class="anger" href="">Cripto pay <i
+                                 class="fas fa-arrow-right"></i></a><br>
+                                 <a class="bg" href="">Accept cripto payments for your<br>business
+                                 seemlesly</a>
+                              </li>
+                              <li><a class="anger" href="">pay links <i
+                                 class="fas fa-arrow-right"></i></a><br>
+                                 <a class="bg" href="">share a payment link.Get paid in<br>crypto or fiat</a>
+                              </li>
+                              <li><a class="anger" href="">Fiat pay <i class="fas fa-arrow-right"></i></a><br>
+                                 <a class="bg" href="">Accept fiat payments at the most<br>competitive
+                                 rates</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="list-inline-item dropdown ">
+                           <a class="dropdown " data-toggle="dropdown" data-hover="dropdown" id="overview_btn"
+                              href="#">Capabilities</a>
+                           <ul class="dropdown-menu">
+                              <li><a class="anger" href="">Shop&E-commerce <i
+                                 class="fas fa-arrow-right"></i></a><br>
+                                 <a class="bg" href="">Enable to flat criptocureency <br>payments in your
+                                 store</a>
+                              </li>
+                              <li><a class="anger" href="">travel <i class="fas fa-arrow-right"></i></a><br>
+                                 <a class="bg" href="">Discover the world with popular
+                                 <br>currencies:flat7cripto!</a>
+                              </li>
+                              <li><a class="anger" href="">Digital Nomod <i
+                                 class="fas fa-arrow-right"></i></a><br>
+                                 <a class="bg" href="">Enjoy working remotely <br>worldwide on your own
+                                 terms</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="list-inline-item "><a id="overview_btn" href="#">Portfolio</a></li>
+                        <li class="list-inline-item "><a id="overview_btn" href="#">Methodology</a></li>
+                        <li class="list-inline-item "><a id="overview_btn" href="Reachus.html">Reach Us</a></li>
+                        <!-- <li class="list-inline-item ri"><a class="btn" href="#">Merchant Login</a></li> -->
+                        <li class="list-inline-item right dropdown ps-3 ">
+                           <a href="hiring.html" class="btn dropdown joinxmoney " data-toggle="dropdown"
+                              data-hover="dropdown" id="hiring_btn"> Hiring </a>
+                           <ul class="dropdown-menu right" id="money">
+                              <li><a class="anger" href="">Fiat Merchant <i
+                                 class="fas fa-arrow-right"></i></a><br>
+                                 <a class="bg" href="">Start processing fiat payment right <br>right away</a>
+                              </li>
+                              <li><a class="anger" href="">Cripto merchant <i
+                                 class="fas fa-arrow-right"></i></a><br>
+                                 <a class="bg" href="">Expant your Business with <br>crpito Payments</a>
+                              </li>
+                              <li><a class="anger" href="">Community <i
+                                 class="fas fa-arrow-right"></i></a><br>
+                                 <a class="bg" href="">join our telegram Community</a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid" style="position: relative;">
+         <div class="row">
+            <div class="col-12 "  id="hiring_container" style="margin-top: 7em;padding: 4em;">
+               <h1 style="color: black; ">Contact Us</h1>
+               <h3>**************</h3>
+               <p class="resume_para ">Our representative will contact you within 24 hours, we will sign an NDA to keep <br>your ideas confidential and discuss the main requirements of the project. After that, <br>our analysts and developers will carefully study them, and together we will come up <br>with the next move.</p>
+               <h4><a href="" style="color: rgb(23, 63, 11);text-decoration: none;">Home </a>|  Contact Us</h4>
+            </div>
+         </div>
+      </div>
+      <div class="container-lg p-4  mt-4" style="position: relative;">
+        <div class="row">
+            <div class="col-lg-12 col-12">
+                <div class="row">
+                    <div class="col-lg-6 col-9">
+                        <div class="row">
+                            <div class="col-lg-5 col-12">
+                                <input type="text" class="form-control" style="padding: 1em 1.5em;width: 100%;" placeholder="Your Name">
+                            </div>
+                            <div class="col-lg-5 col-12">
+                                <input type="text" class="form-control"style="padding: 1em 1.5em;" placeholder="Your Subject">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-12">
+                                <input type="text" class="form-control"style="padding: 1em 1.5em;" placeholder="Your Email">
+                            </div>
+                            <div class="col-lg-5 col-12">
+                                <input type="number" class="form-control"style="padding: 1em 1.5em;" placeholder="Your Phone">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 col-12">
+                                <textarea name="" id="" cols="30" rows="8" class="form-control" placeholder="write your Valuable message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-5 mt-3">
+                                <div class="btn submit-btn">Submit Message</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-8" id="inner-layer-contact" style="padding: 30px;border-left:1px solid white" >
+                        <h2 class="contact-info" >Contact Information</h2>
+                        <p class="contact-para">After reviewing your submission, we'll be in touch <br>with you to discuss your proposal within 24 hours.</p>
+                        <div class="contact-span">
+                           <h6> <i class="fa-solid fa-phone-volume fa-shake fa-xl " style="color: #210352;padding-right: 20px;"></i><span> 044-4746-8516</span></h6>
+                        </div>
+                        <div class="row">
+                            <div class="email-span">
+                                <h6><i class="fa-regular fa-envelope fa-beat-fade fa-xl" style="color: #240359;padding-right: 20px;"></i><span>info@leadibs.com</span></h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="location-span">
+                                <h6><i class="fa-solid fa-map-location-dot fa-fade fa-xl" style="color: #090449;padding-right: 20px;"></i>
+                                    <span style="display:inline-table;">No.6, 7th st, S.V.S nagar,  Valasaravakkam, <br> Chennai - 600087.</span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top: 20px;">
+                          <h3 class="social_media-link" style="color: rgb(54, 230, 54);">Follow Us on:</h3>
+                             <div class="social_layer"style="padding-top:10px;">
+                               <a href="#"><i class="fa-brands fa-facebook fa-fade fa-xl" style="color: #f7f4f4;"></i></a>
+                               <a href="#"> <i class="fa-brands fa-instagram fa-flip fa-xl" style="color: #eff1f6;"></i></a>
+                               <a href="#"><i class="fa-brands fa-linkedin fa-bounce fa-xl" style="color: #ebeef4;"></i></a>
+                               <a href="#"><i class="fa-brands fa-x-twitter fa-xl fa-flip"  style="color: #ebeef4;"></i></a>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-12">
+                      <div class="plan-box" onclick="scrollToTop()"><i class="fa fa-plane-up  fa-bounce fa-2xl" style="color: #2c5502;position: fixed;z-index: 10;;width: 79px; height: 65px;border:30px solid white;border-radius: 50px;margin-left:2%;cursor:pointer;"> <p style="font-size: 14px;padding-top: 25px;color: black;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">click</p></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+         <div class="col-lg-12 mt-5">
+            <div id="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9513233796565!2d80.17028477373303!3d13.038770413404782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261c27be6d0d5%3A0x4080be4972ef245d!2sLead%20Integrated%20Business%20Services%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1702529260371!5m2!1sen!2sin" width="100%" height="450" style="border:10px solid rgb(58, 53, 61); margin-top: 20px;border-radius: 7px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+         </div>
+        </div>
+      </div>
+      <div class="container-xxl mt-2 mb-2"  style="border-radius: 10px;background: linear-gradient(0.25turn, #3f87a6, #e683ba, #f69d3c);">
+         <div class="row" >
+            <div class="col-lg-12" >
+               <h1 class="web-merit">Download Our<span class="text_tiel"> Best</span> Apps </h1>
+               <h4 class="web-merit-content">Discover our top applications and realize our innovative and imaginative ideas. <br> Feel the sensation of using our applications in your hands.</h4>
+               <div class="btn app-store"><i class="fa-brands fa-apple"></i> App store</div>
+               <div class="btn play-store"><i class="fa-brands fa-google-play"></i> Google play</div>
+            </div>
+         </div>
+      </div>
+      <div class="container-xxl">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="row">
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6 col-12 mt-4 mb-4">
+                     <h6 class="bottom-up-links"><a href="#" onclick="scrollToTop()" >Tearms of Use</a><a href="#" onclick="scrollToTop()">privacy policy</a><a href="#" onclick="scrollToTop()">Faq</a><a href="#" onclick="scrollToTop()">Contact</a></h6>
+                  </div>
+                  <div class="col-12">
+                     <div class="plan-box" onclick="scrollToTop()"><i class="fa-solid fa-plane-up  fa-bounce fa-2xl" style="color: #2c5502;width: 79px; height: 65px;border:30px solid white;border-radius: 50px;margin-left:40%;cursor:pointer;display: none;"> <p style="font-size: 14px;padding-top: 25px;color: black;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">click</p></i></div>
+                   </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+
+
+      
+       <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script src="main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   </body>
+</html>

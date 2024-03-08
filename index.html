@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.js"></script>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.js">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Your+Chosen+Font">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="i.ico">
+<title>  Libs | Mobile and web development </title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   -->
+</head>
+
+<body style="background-color: rgb(24, 29, 26);">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@700&display=swap');
+  </style>
+  <div class="container-xxl" id="media1">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="fixed-top">
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="list-inline d-flex justify-content-between" id="das">
+                  <li>
+                    <a href="/">
+                      <img
+                        src="https://leadibs.com/assets/images/logo/logo.png"
+                        id="Libs-logo"
+                        alt="libs Logo">
+                    </a>
+                  </li>
+                  <li class="dropdown" id="bar-menu">
+                    <div class="hamburger" id="hamburger">
+                      <div class="span" id="span"></div>
+                      <div class="span" id="span"></div>
+                      <div class="span" id="span"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+
+          
+          <div class="container-fluid" id="container-fluid" >
+            <div class="row">
+              <div class="col-lg-12 col-sm-6">
+                <div class="blankbox" >
+                  <ul class="list-unstyled pt-5" >
+                    <li class="d-flex"><a class="btn" href="#">WELCOME!</a></li>
+                    <li class="d-flex"><a class="btn" href="#" id="btn">Let's Grow Together<i class="fa-solid fa-face-smile-beam fa-bounce fa-xl" style="color: #fff700; padding-left: 20px;"></i></a></li>
+                    <li class="d-flex"><a href="#" class="head1">Quick View</a></li>
+                    <li class="d-flex"><a href="#" class="head1">Regarding Us</a></li>
+                    <li class="d-flex"><a class="pay-req " href="">Why choose Us  <i class="fas fa-arrow-right"></i><br>
+                        <p>Expertise, Innovation,Collaboration</p>
+                      </a> </li>
+                    <li class="d-flex"><a href="#" class="pay-req">Our Team<i class="fas fa-arrow-right"></i><br>
+                        <p>Talented, Innovative ,Passionate.</p>
+                      </a></li>
+                    <li class="d-flex"><a href="#" class="pay-req">Quality Assurance <i class="fas fa-arrow-right"></i><br>
+                        <p>Thoroughness, Excellence,Consistency.</p>
+                      </a></li>
+                    <li class="d-flex"><a href="#" class="pay-req">Customer-Centric <i class="fas fa-arrow-right"></i><br>
+                        <p>Customer Satisfaction  Above All Else.</p>
+                      </a></li>
+                    <li class="d-flex"><a href="#" class="head1">Capabilities</a></li>
+                    <li class="d-flex"><a href="#" class="pay-req">Web Development<i class="fas fa-arrow-right"></i><br>
+                        <p> Responsive, Dynamic, User-Centric</p>
+                      </a></li>
+                    <li class="d-flex"><a href="#" class="pay-req">App Development <i class="fas fa-arrow-right"></i><br>
+                        <p> Cross-Platform, Secure, Performance-Optimized.</p>
+                      </a></li>
+                    <li class="d-flex"><a href="#" class="pay-req">Digital Marketing <i class="fas fa-arrow-right"></i><br>
+                        <p>Strategic,Targeted, Results-Oriented. </p>
+                      </a></li>
+                      <li class="d-flex"><a href="#" class="pay-req">Cyber Security<i class="fas fa-arrow-right"></i><br>
+                        <p>Secure, Vigilant,Technologically Advanced.</p>
+                      </a></li>
+                    <li class="d-flex"><a href="#" class="head1">Portfolio</a></li>
+                    <li class="d-flex"><a href="#" class="head1">Reach Us</a></li>
+                    <li class="d-flex pb-5"><a href="#" class="head1">Methodology</a></li>
+                    <a href="hiring.html" class="btn dropdown joinxmoney" 
+                    data-toggle="dropdown" data-hover="dropdown" style="margin-left: 50%;background-color: #3a33a5;" id="hiring_btn"> <i class="fa-solid fa-briefcase" style="color: #c1c6d1 !important;"></i>Hiring </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <div class="container-xxl first_back " id="img"   >
+    <div class="row">
+      <div class="col-lg-12 ">
+        <div class="row " id="media2">
+          <div class="col-lg-12 col-md-12  ">
+            <li class="list-inline-item t "><a href="/"> <img
+              src="https://leadibs.com/assets/images/logo/logo.png"
+              loading="eager" alt="Logo xMoney White" class="image_absolute-contain is-color-logo" id="Libs-logo"></a>
+            </li>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top mt-5">
+              <ul class="list-inline " id="nav_main">
+                
+                <li class="list-inline-item ms-5"><a href="#" style="margin-left: 7em;"  id="overview_btn">Quick view</a></li>
+                <li class="list-inline-item dropdown">
+                  <a class="dropdown " data-toggle="dropdown" id="overview_btn" href="#">Regarding Us</a>
+                  <ul class="dropdown-menu" >
+                    <li class="inner-shadow-box"><a class="anger"  id="hover-main" href="">Why choose Us <i class="fas fa-arrow-right"></i></a><br>
+                      <a href="" class="bg">Expertise, Innovation,<br>Collaboration</a>
+                    </li>
+                    <li class="inner-shadow-box"><a class="anger" id="hover-main" href="">Our Team<i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href="">Talented, Innovative <br>Passionate.</a>
+                    </li>
+                    <li class="inner-shadow-box"><a class="anger"id="hover-main" href="">Quality Assurance <i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href="">Thoroughness, Excellence,<br>Consistency.</a>
+                    </li>
+                    <li class="inner-shadow-box"><a class="anger"id="hover-main" href="">Customer-Centric  Focus <i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href="">Customer Satisfaction <br> Above All Else.</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-inline-item dropdown "><a class="dropdown " data-toggle="dropdown" data-hover="dropdown"
+                  id="overview_btn" href="#">Capabilities</a>
+                  <ul class="dropdown-menu">
+                    <li class="inner-shadow-box"><a class="anger" id="hover-main" href="">Web Development <i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href=""> Responsive, Dynamic, <br> User-Centric</a>
+                    </li>
+                    <li class="inner-shadow-box"><a class="anger"id="hover-main" href="">App Development <i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href=""> Cross-Platform, Secure, <br> Performance-Optimized.</a>
+                    </li>
+                    <li class="inner-shadow-box"><a class="anger" id="hover-main"href="">Digital Marketing<i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href="">Strategic,Targeted, <br>Results-Oriented. </a>
+                    </li>
+                    <li class="inner-shadow-box"><a class="anger"id="hover-main" href="">Cyber Security<i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href="">Secure, Vigilant,<br>Technologically Advanced.</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-inline-item "><a id="overview_btn" href="#">Portfolio</a></li>
+                <li class="list-inline-item "><a id="overview_btn" href="#">Methodology</a></li>
+                <li class="list-inline-item "><a id="overview_btn" href="Reachus.html">Reach Us</a></li>
+                <!-- <li class="list-inline-item ri"><a class="btn" href="#">Merchant Login</a></li> -->
+                <li class="list-inline-item right dropdown ps-3 "><a href="hiring.html" class="btn dropdown joinxmoney "
+                    data-toggle="dropdown" data-hover="dropdown" id="hiring_btn"> <i class="fa-solid fa-briefcase" style="color: #f9fbff ;"></i>Hiring </a>
+                  <ul class="dropdown-menu right" id="hiring-position">
+                    <li><a class="anger" href="">Fiat Merchant <i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href="">Start processing fiat payment right <br>right away</a>
+                    </li>
+                    <li><a class="anger" href="">Cripto merchant <i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href="">Expant your Business with <br>crpito Payments</a>
+                    </li>
+                    <li><a class="anger" href="">Community <i class="fas fa-arrow-right"></i></a><br>
+                      <a class="bg" href="">join our telegram Community</a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-12 col-xl-12 mt-3 " id="main_layer">
+            <h1 class="d-flex align-items-center justify-content-center " id="main"><br> Welcome To Our Digital</h1>
+            <h1 class="d-flex align-items-center justify-content-center" id="main" style="font-family:fantasy;padding-top: 15px;">Wonderland</h1>
+            <h1 class="d-flex align-items-center justify-content-center" id="main" style="color: aqua;padding-top: 10px;">Transforming Your Ideas   
+              <h1 class="d-flex align-items-center justify-content-center"style="padding-top: 10px;" id="main" 
+              background-clip: text;
+              -webkit-text-fill-color: transparent;">Into Animae Realities
+            </h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 " style="margin-top: 2em;">
+            <div class="row">
+              <div class="col">
+                <a href="Reachus.html" class="btn custom-button">Get App</a>
+              </div>
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="responsive-box1">
+                    Guest
+                    <h2 style="background-color: rgba(0,0,0,0);" class="display-4 text-lg-center">302,127</h2>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="responsive-box2">Designing Success <br>Delivering Excellence <i class="fa-solid fa-truck " style="color: #cc6f19;padding-top: 10px;"></i>. <br>Let's Grow Together </div>
+                  <div class="responsive-box3"> Strategic Tech <br> Partners</div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="responsive-box4" style="font-family:  serif;">
+                    Joint  Initiatives Joint<br>  Success <span style="color: #b1b878;">....</span><i class="fa-solid fa-thumbs-up " style="color: #38a111;padding-left: 20px;background: -webkit-linear-gradient(#eee, #35f10f);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-xxl" id="media3">
+        <div class="row">
+          <div class="col-lg-12">
+            <marquee scrollamount="10">
+              <div class="row">
+                <div class="col" id="news-list">
+                  <ul class="list-inline">
+                    <li class="list-inline-item" id="marquee">
+                      <div class="box" style="background-image: linear-gradient( 109.6deg,  rgba(102,51,153,1) 11.2%, rgba(2,0,4,1) 91.1% );">
+                        <div class=" m-3"  id="org"><i class="fa-regular fa-handshake fa-shake fa-2xl" style="color: #c5d818;padding-right: 5px;"></i>You've Landed at [LIBS] - Building Tomorrow's Digital World!</div>
+                        
+                      </div>
+                    </li>
+                    <li class="list-inline-item">
+                      <div class="box">
+                        <div class=" m-3" id="org"><img src="https://www.hextoid.com/wp-content/uploads/2020/11/hii-click.gif"> We are committed to your growth journey.</div>
+                       
+                      </div>
+                    </li>
+                    <li class="list-inline-item">
+                      <div class="box">
+                        <div class=" m-3"><i class="fa-solid fa-globe fa-spin fa-spin-reverse fa-2xl" style="color: #22d837;padding-right: 5px;"></i> Web Development</div>
+                        <!-- <a href="#"></a> -->
+                        
+                      </div>
+                    </li>
+                    <li class="list-inline-item">
+                      <div class="box">
+                        <div class="m-3"><i class="fa-brands fa-android fa-spin fa-2xl"style="color: #22d837;padding-right: 5px;"></i> App Development</div>
+                        
+                      </div>
+                    </li>
+                    <li class="list-inline-item">
+                      <div class="box">
+                        <div class="m-3"><i class="fa-solid fa-dice fa-bounce fa-2xl" style="color: #15e519;padding-right: 5px;"></i>Game Development</div>
+                        
+                      </div>
+                    </li>
+                    <li class="list-inline-item">
+                      <div class="box">
+                        <div class="m-3"><i class="fa-solid fa-bullhorn fa-bounce fa-2xl" style="color: #2fe218;padding-right: 10px;"></i>Digital Marketing</div>
+                        
+                      </div>
+                    </li>
+                    <li class="list-inline-item">
+                      <div class="box">
+                        <div class=" m-3">We appreciate your presence. Thank you! <i class="fa-solid fa-face-grin-hearts fa-2xl" style="color: #cdf009;"></i></div>
+                        
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </marquee>
+          </div>
+        </div>
+        <div class="container-xxl" id="over" style="position: relative;">
+          <div class="row " id="container">
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-3" style="margin-left: -1em;">
+                  <a href="" >
+                    <img
+                    src="https://cdn.dribbble.com/users/5661901/screenshots/16580195/media/8cc301b80e702573de240d6585b75a95.jpg?resize=400x0"
+                    id="img1" alt="Image 1" class="card-img-top">
+                    <a href="" class="overlay-box1">Attractive Websites</a>
+                  </a>
+                </div>
+                <div class="col-3" id="img2box"  style="position: relative;">
+                 <a href="">
+                  <img
+                  src="images/ecom.jpg" 
+                  alt="Image 2" id="img2"  class="card-img-top " >
+                <a href="" class="overlay-box2">E-commerce Websites</a>
+              </div>
+                 </a>
+                <div class="col-3 ">
+                  <a href="">
+                    <img
+                    src="images/mobil-app.jpg"
+                    alt="Image 3" id="img3" class="img-fluid custom-img">
+                  <a href="" class="overlay-box3">Mobile-Apps</a>
+                  </a>
+                </div>
+                <div class="col-3">
+                  <a href="">
+                    <img
+                    src="https://brandlume.com/wp-content/uploads/2019/10/960X540.png"
+                    alt="Image 4" id="img4" class="img-fluid custom-img">
+                  <a href="" class="overlay-box4">Search Engine optimization</a>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-xxl" style="position: relative;">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="d-flex justify-content-center 1 " style="color: #aaadb4;">Ready for diverse tasks, </h1>
+              <h1 class="d-flex  justify-content-center 2" style="color: #aaadb4;padding-top: 15px;">expanding your business, </h1>
+              <h1 class="d-flex  justify-content-center 2" style="color: #aaadb4;padding-top: 15px;">explaining products. </h1>
+              <span id="span11">Our  <span id="span12" style="letter-spacing: 4px;font-family: 'Kalnia', serif;text-shadow: -1px 0 rgb(104, 189, 7), 0 1px rgb(197, 47, 47), 1px 0 rgb(80, 207, 6), 0 -1px black;"> Multitasking </span> <span id="span13">Tree</span></span>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-lg-12">
+              <div class="row">
+                <a href="">
+                  <div class="col-3">
+                    <img
+                      src="https://www1.onpassive.com/blog/wp-content/uploads/2022/08/03173334/Social-Media-Marketing-Plan-768x768.jpg"
+                       alt="" id="img5" class="img-fluid ">
+                    <a href="" class="overlay-box5">Social Media Marketing</a>
+                  </div>
+                </a>
+                <div class="col-6">
+                  <a href="">
+                    <img
+                    src="https://media.licdn.com/dms/image/D4D12AQHEEs3mGDoAZg/article-cover_image-shrink_720_1280/0/1656072762852?e=2147483647&v=beta&t=EgCqtNbTe5by8jZQ1Emuarf5RfdHl2f9QO-uPzIyZ0E"
+                    alt="Image 3" class="img-fluid  " id="img6" style="width: 110%;height: 37%;">
+                  <a href="" class="overlay-box6">Application Security</a>
+                  </a>
+                  <div class="row mt-3">
+                    <div class="col-6">
+                      <a href="">
+                        <img
+                        src="images/pass.jpg"
+                        alt="Image 4" id="img7" class="img-fluid" style="height: 82%;width: 120%;">
+                      </a>
+                        <a href="" class="overlay-box7">Password Attacks</a>
+                      </div>
+                    <div class="col-6">
+                      <a href="">
+                        <img
+                        src="https://outscal-content.s3.ap-south-1.amazonaws.com/full-stack-game-development.png"
+                        alt="Image 5" class="img-fluid" id="img8" style="height: 70%;width: 95%;">
+                       <a class="overlay-box8">Game design</a>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <a href="">
+                    <img
+                    src="https://www.kmftechs.com/wp-content/uploads/2019/06/NetworkSecurity_Main-738x665.jpg"
+                    alt="Image 6" id="img9" style="height: 60%;" class="img-fluid ">
+                    <a href="" class="overlay-box9">Network Security</a>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-xxl " id="unique">
+          <div class="row">
+            <div class="col-6">
+              <h1 class="big font1">Tech </h1>
+            </div>
+            <div class="col-6">
+              <h1 class="big font2">Hub</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-9">
+              <div class="emptybox1 ">
+                <h5 class="Acceptcripto">LIBS- WebCraze Hub</h5>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h1 class="business">Make A Website<br>To Grow Up Your <br>Business </h1>
+                    <img
+                      src="images/growth.jpg"
+                      id="Discoverimg1" alt="">
+                  </div>
+                  <div class="col-lg-6">
+                    <h3 class="upgradefinancial">A digital presence includes all of the<br> ways  a consumer can interact  with your brand online, such as social media discussions, online‍ reviews, and an <br> eye-catching corporate website. <br><br>Unlock growth with tailored <br>solutions  for success.
+                     </h3>
+                    <a href="Reachus.html" class="btn btn-light mt-5 m-lg-5">Web Development</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-9">
+                <div class="emptybox2 " style="margin-top: -140px;height: 150%;">
+                  <h5 class="Acceptcripto">LIBS-App Masters</h5>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h1 class="business">Create Mobile App<br>For Your Customer <br>Compatibility </h1>
+                      <img
+                        src="images/pexels-karolina-grabowska-4476635.jpg"
+                        id="Discoverimg2" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="upgradefinancial">Mobile apps have connected the world. In this highly technological era, <br> Libs can assist you in developing <br> some excellent mobile applications <br> for your business and start-ups <br><br>Crafting exceptional mobile experiences for your success journey.
+                      </h3>
+                      <a class="btn btn-light mt-5 m-lg-5 " style="margin-bottom: 30vh;">App Development</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3"></div>
+              <div class="col-lg-9">
+                <div class="emptybox3 " style="margin-top: 120px;">
+                  <h5 class="Acceptcripto">LIBS-Digital Brilliance</h5>
+                  <div class="row">
+                    <div class="col-lg-12 ">
+                      <h1 class="business">Expand Your Business<br>For Your Company And <br>Marketing Service </h1>
+                      <img
+                        src="images/pexels-mikael-blomkvist-6476259.jpg"
+                        id="Discoverimg3"   alt="">
+                      <h3 class="upgradefinancial3">Many small and medium-sized businesses have increased their profits significantly by incorporating a digital strategy into their marketing plans. As a result, even a few days' delay can give your competitor an advantage over your company. <br><br>We begin by understanding your business objectives, target audience, and industry landscape to create a customized digital marketing plan.</h3>
+                      <a href="" class="btn btn-light mt-5 " style="margin-left: 30vw;" ;>Digital Marketing</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-9">
+                <div class="emptybox4 " style="margin-top: 140px;">
+                  <h5 class="Acceptcripto">LIBS-Data Shield</h5>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h1 class="business">Secure Your Data <br>For Your Company And Customer <br><br> </h1>
+                      <img
+                        src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_A_Cyber_Security_Analyst.jpg"
+                        id="Discoverimg4" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="upgradefinancial" >Control and management of encryption keys and secret credentials should be handled centrally. With threat intelligence and consistent rule enforcement, you can protect your applications from malicious and unwanted internet and internal traffic. <br><br>Ensuring data security builds a foundation of trust for both company and customers alike.</h3>
+                      <a class="btn btn-light mt-5 m-lg-4" style="margin-bottom: 30vh;">Cyber Security</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h1 style="font-size: 6vw;"> <br> Elevate hope with exceptional </h1>
+              </div>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h1 style="font-size: 6vw;padding-top: 13px;">service and commitment. <br><br></h1>
+              </div>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h1 style="font-size: 6vw;padding-top: 13px;font-size: 72px;
+                background: -webkit-linear-gradient(#9ed65d, #333);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;"> We Tell You Something <br>About Our Extraordinary</h1>
+              </div>
+            </div>
+            <div class="container-xxl" id="relative-sticky">
+              <div class="row" id="sticky">
+                <div class="col-lg-12">
+                  <div class="emptybox5 mt-4">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <h1 class="Acceptcripto2 mb-4">Experienced employees </h1>
+                        <h5 class="Acceptcripto3 ">Our skilled employees with extensive project experience<br> will be available to you at your  convenience. <br><br>Our team of skilled experts, well-versed in diverse <br> projects, is here to cater to your needs, offering flexibility <br>to align with your schedule and preferences.
+                        </h5>
+                      </div>
+                      <div class="col-lg-6">
+                        <img
+                          src="images/pexels-mikhail-nilov-7988079.jpg"
+                          width="95%" style="margin-top: 20px;border-radius: 5%;" id="Discoverimg5" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row" id="sticky">
+                <div class="col-lg-12">
+                  <div class="emptybox6">
+                    <div class="row" >
+                      <div class="col-lg-6">
+                        <h1 class="Acceptcripto2 mb-4">On-time Delivery </h1>
+                        <h5 class="Acceptcripto3 ">Our experienced employees work with precise timing to ensure that projects are completed on time. <br><br>Our seasoned workforce operates with meticulous timing, ensuring the timely completion of projects with precision and efficiency. <br></h5>
+                        <div class="btn learnmore">learn more</div>
+                      </div>
+                      <div class="col-lg-6">
+                        <img
+                          src="images/pexels-edmond-dantès-4344860.jpg"
+                          width="95%" style="border-radius: 2%;" id="Discoverimg6" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row" id="sticky">
+                <div class="col-lg-12">
+                  <div class="emptybox6">
+                    <div class="row" >
+                      <div class="col-lg-6">
+                        <h1 class="Acceptcripto2 mb-4">Best technologies </h1>
+                        <h5 class="Acceptcripto3 ">We use the best and most up-to-date technologies to implement your advanced ideas and our advanced features. <br><br>Fulfilling your vision is our commitment, achieved through the seamless integration of the latest and most advanced technologies, ensuring unparalleled innovation and success in every endeavor</h5>
+                        <div class="btn learnmore">learn more</div>
+                      </div>
+                      <div class="col-lg-6">
+                        <img
+                          src="images/pexels-yan-krukau-7792804.jpg"
+                          width="95%" style="border-radius: 2%;" id="Discoverimg6" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row section " id="sticky">
+                <div class="col-lg-12">
+                  <div class="emptybox7">
+                    <div class="row" id="content">
+                      <div class="col-lg-8">
+                        <h1 class="Acceptcripto2 ">Latest Update: Blog 1</h1>
+                        <h4 class="Acceptcripto2 mb-4" style="font-size: 1.9em;padding-left: 10%;margin-top: -9%;">What Does Web Development<br> Play  in Business?</h4>
+                        <h5 class="Acceptcripto3 ">
+                          Web development plays a pivotal role in business by serving <br> as the cornerstone of online presence, facilitating customer engagement, <br> enabling e-commerce transactions, and enhancing brand visibility. <br><br> It is always advantageous for businesses and 66% of individuals <br> to see something beautifully planned rather than something straightforward <br> to increase their sales on the web... <br></h5>
+                        <div class="btn learnmore">Raed More</div>
+                      </div>
+                      <div class="col-lg-4">
+                        <img
+                          src="https://www.mooc.org/hubfs/web-programming-languages.jpg"
+                          id="Discoverimg7" style="border-radius: 15px;margin-top: 30%;" width="90%"  alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row section" id="sticky">
+                <div class="col-lg-12">
+                  <div class="emptybox8">
+                    <div class="row" id="content">
+                      <div class="col-lg-8">
+                        <h1 class="Acceptcripto2 mb-4">Latest Update: Blog 2</h1>
+                        <h4 class="Acceptcripto2 mb-4" style="font-size: 1.9em;padding-left: 10%;margin-top: -9%;">The Most Important Reasons <br> to Invest in Android App</h4>
+                        <h5 class="Acceptcripto3 ">In today's mobile world, it's critical for entrepreneurs to consider <br> effective mobile app development for quick business growth.<br> It was $140 billion by 2020, with the Android platform being the main contributor... <br><br>Android has a dominant market share globally, providing businesses <br> with a vast audience and diverse user demographics.Android app development <br> is often more cost-effective than iOS, with a lower barrier to entry<br> and a larger pool of developers proficient in Java and Kotlin.</h5>
+                      </div>
+                      <div class="col-lg-4" id="image-holder">
+                        <img
+                          src="images/blog2.jpg"
+                          class="scrolling-image" style="margin-top: 30%;object-fit: cover;border-radius: 5%;" id="Discoverimg8"  alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row section" id="sticky">
+                <div class="col-lg-12">
+                  <div class="emptybox8">
+                    <div class="row" id="content">
+                      <div class="col-lg-8">
+                        <h1 class="Acceptcripto2 mb-4">Latest Update: Blog 3 </h1>
+                        <h4 class="Acceptcripto2 mb-4" style="font-size: 1.9em;padding-left: 10%;margin-top: -9%;">Upcoming Trends to Generate <br> Traffic on Your Website</h4>
+                        <h5 class="Acceptcripto3 ">Nowadays, every business owner wants his website to be at the<br> top of Google in order to increase overall profits and ROI,<br>which is only possible with valuable customers. There are numerous strategies... <br> <br></h5>
+                      </div>
+                      <div class="col-lg-4">
+                        <img
+                          src="images/blog3.jpg"
+                          class="scrolling-image" style="margin-top: 30%;object-fit: cover;border-radius: 5%;" id="Discoverimg9" width="70%" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mt-5">
+                <h1 class="success">Success speaks volumes through  </h1>
+                <h1 class="success">our service user experiences <br><br>Browse Featured Jobs</h1>
+                <p class="success-content mt-4">We are providing numerous opportunities for your professional development. <br>Take advantage of this opportunity to initiate your extraordinary career.</p>
+                <div class="btn content  ">URGENT REQUIRED</div>
+              </div>
+            </div>
+            <div class="row">`
+              <div class="col-lg-12" id="hire-box">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="quotesbox1 mt-5"style="background-color:#35373b">
+                     <h2 class="quotes-head">App Developer</h2><br>
+                     <ul style="display:flex;color: white;list-style-type: none;margin-left: 10px;flex-direction:row;"><li style="padding: 5px;background-color: #637196;border-radius: 4px;"><i class="fa-solid fa-user " style="color: #e8ecf2;padding-right: 5px;"></i>Fresher</li><li style="margin-left: 30px;background-color: #606e9b;padding: 5px;border-radius: 4px;"><i class="fa-solid fa-briefcase" style="color: #c5cedd;padding-right: 5px;"></i> Full-time</li><li style="margin-left: 30px;background-color: #6777ad;padding: 5px;border-radius: 4px;"><i class="fa-solid fa-hand-holding-dollar" style="color: #d7e2f4;padding-left: 5px;"></i>10K-15K</li></ul>
+                      <div class="div"> <i class="fa-solid fa-quote-left"
+                          style="color: #35373b;font-size: 4em;padding-left: 15px;"></i></div>
+                      <blockquote class="quotes-text"> We are looking for a dedicated application developer to work with customers to develop new software applications and update and modify existing applications... </blockquote>
+                      <div><i class="fa-solid fa-quote-right d-flex justify-content-end"
+                          style="color: #373c43; font-size: 4em;padding-right: 20px;"></i></div>
+                      <blockquote class=" btn quotes-text-2">Apply Now</blockquote> 
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="quotesbox1 mt-5">
+                      <h2 class="quotes-head">Backend Developer</h2><br>
+                      <ul style="display:flex;color: white;list-style-type: none;margin-left: 10px;flex-direction:row;"><li style="padding: 5px;background-color: #637196;border-radius: 4px;"><i class="fa-solid fa-user " style="color: #e8ecf2;padding-right: 5px;"></i>Fresher</li><li style="margin-left: 30px;background-color: #606e9b;padding: 5px;border-radius: 4px;"><i class="fa-solid fa-briefcase" style="color: #c5cedd;padding-right: 5px;"></i> Full-time</li><li style="margin-left: 30px;background-color: #6777ad;padding: 5px;border-radius: 4px;"><i class="fa-solid fa-hand-holding-dollar" style="color: #d7e2f4;padding-left: 5px;"></i>10K-15K</li></ul>
+                      <div class="div"> <i class="fa-solid fa-quote-left"
+                          style="color: #35373b;font-size: 4em;padding-left: 15px;"></i></div>
+                      <blockquote class="quotes-text"> We are looking for an analytical, results-driven back-end developer who will work with team members to troubleshoot and improve current back-end applications... </blockquote>
+                      <div><i class="fa-solid fa-quote-right d-flex justify-content-end"
+                          style="color: #373c43; font-size: 4em;padding-right: 20px;"></i>
+                      </div>
+                      <blockquote class=" btn quotes-text-2">Apply Now</blockquote> 
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="quotesbox1 mt-5">
+                      <h2 class="quotes-head">Digital Marketing</h2><br>
+                      <ul style="display:flex;color: white;list-style-type: none;margin-left: 10px;flex-direction:row;"><li style="padding: 5px;background-color: #637196;border-radius: 4px;"><i class="fa-solid fa-user " style="color: #e8ecf2;padding-right: 5px;"></i>Fresher</li><li style="margin-left: 30px;background-color: #606e9b;padding: 5px;border-radius: 4px;"><i class="fa-solid fa-briefcase" style="color: #c5cedd;padding-right: 5px;"></i> Full-time</li><li style="margin-left: 30px;background-color: #6777ad;padding: 5px;border-radius: 4px;"><i class="fa-solid fa-hand-holding-dollar" style="color: #d7e2f4;padding-left: 5px;"></i>10K-15K</li></ul>
+                      <div class="div"> <i class="fa-solid fa-quote-left"
+                          style="color: #35373b;font-size: 4em;padding-left: 15px;"></i></div>
+                      <blockquote class="quotes-text"> We are looking for a highly-creative digital marketing person to grow our brand’s influence locally while also increasing brand loyalty and awareness. Your duties will...</blockquote>
+                      <div><i class="fa-solid fa-quote-right d-flex justify-content-end"
+                          style="color: #373c43; font-size: 4em;padding-right: 20px;"></i>
+                      </div>
+                      <blockquote class=" btn quotes-text-2">Apply Now</blockquote> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="power">WE CHOOSE </h1>
+                <h1 class="power1">The Best Technologies</h1>
+                <p class="pow-content ">Utilizing leading-edge technologies, we turn your visionary concepts into reality, integrating <br> our advanced features to ensure a solution that surpasses expectations</p>
+              </div>
+            </div>
+            <div class="row" id="horz-1">
+              <div class="container-xxl" id="scroll-box">
+                <div class="row">
+                  <div class="col-lg-12 scrolling-container" id="horizontal-scroll-container">
+                    <div class="horizontal-box " id="horz-box">
+                      <img src="https://www.goodworklabs.com/wp-content/uploads/2017/08/2b-8-android-apps-to-study-for-upcoming-developers.jpg" alt="" class="horizontal-img ">
+                      <h3 class="horz-head ">Flutter </h3>
+                      <p class="horz-content">For Mobile App <br><br>Flutter offers a dynamic, efficient <br> development environment</p>
+                      <a href="#"><i class="fa-solid fa-arrow-right-long" style="color: #e3e7ed;"></i></a>
+                    </div>
+                    <div class="horizontal-box " id="horz-box">
+                      <img src="https://knackforge.com/wp-content/uploads/2022/11/Benefits-of-ReactJS.jpg" alt="" class="horizontal-img" id="horizontal-img">
+                      <h3 class="horz-head ">ReactJs</h3>
+                      <p class="horz-content">For front-end <br><br>React.js empowers efficient UI <br> development with reusable components</p>
+                      <a href="#"><i class="fa-solid fa-arrow-right-long" style="color: #e3e7ed;"></i></a>
+                    </div>
+                    <div class="horizontal-box" id="horz-box">
+                      <img src="https://blog.appsignal.com/_next/image?url=%2Fimages%2Fblog%2F2022-11%2Fnode19.png&w=3840&q=50" alt="" class="horizontal-img" id="horizontal-img">
+                      <h3 class="horz-head ">NodeJs</h3>
+                      <p class="horz-content">for back-end <br><br>Node.js excels in server-side<br> JavaScript, enabling scalable and<br> efficient backend development.</p>
+                      <a href="#"><i class="fa-solid fa-arrow-right-long" style="color: #e3e7ed;"></i></a>
+                    </div>
+                    <div class="horizontal-box" id="horz-box">
+                      <img src="https://discover.strongdm.com/hubfs/Imported_Blog_Media/60cbc1205c30f372af2801ce_create-user-mongodb-securely-3.jpeg" alt="" class="horizontal-img"id="horizontal-img">
+                      <h3 class="horz-head ">MongoDB</h3>
+                      <p class="horz-content">for cloud databse <br><br>MongoDB, the NoSQL database,<br> empowers applications with flexible,<br> scalable, and dynamic data storage.</p>
+                      <a href="#"><i class="fa-solid fa-arrow-right-long" style="color: #e3e7ed;"></i></a>
+                    </div>
+                    <div class="horizontal-box" id="horz-box">
+                      <img src="https://ertano.com/wp-content/uploads/2022/02/wordpress-php-modules.png" alt="" class="horizontal-img"id="horizontal-img">
+                      <h3 class="horz-head ">PHP</h3>
+                      <p class="horz-content">for back-end <br><br>PHP is a versatile server-side <br> scripting language, integral <br> to dynamic web development</p>
+                      <a href="#"><i class="fa-solid fa-arrow-right-long" style="color: #e3e7ed;"></i></a>
+                    </div>
+                    <div class="horizontal-box " id="horz-box">
+                      <img src="https://www.serverbasket.com/wp-content/uploads/2020/12/Managed-MySQL-Dedicated-Server-Hosting.jpg" alt="" class="horizontal-img "id="horizontal-img">
+                      <h3 class="horz-head ">MySql</h3>
+                      <p class="horz-content">for database <br><br>Open-source relational database <br> management system supporting <br> efficient data storage and retrieval.</p>
+                      <a href="#"><i class="fa-solid fa-arrow-right-long" style="color: #e3e7ed;"></i></a>
+                    </div>
+                    <div class="horizontal-box " id="horz-box">
+                      <img src="https://blog.logrocket.com/wp-content/uploads/2020/12/javascript-custom-events.png" alt="" class="horizontal-img "id="horizontal-img">
+                      <h3 class="horz-head ">Javascript</h3>
+                      <p class="horz-content">for cyber-security <br><br>JavaScript, the backbone of modern <br> web development, delivers<br> seamless user experiences and<br> interactive functionality.</p>
+                      <a href="#"><i class="fa-solid fa-arrow-right-long" style="color: #e3e7ed;"></i></a>
+                    </div>
+                    <div class="horizontal-box " id="horz-box">
+                      <img src="https://unofficialengineering.com/wp-content/uploads/2022/11/python-programming-course.jpg" alt="" class="horizontal-img "id="horizontal-img">
+                      <h3 class="horz-head ">Python</h3>
+                      <p class="horz-content">for cyber-security <br><br>Applications of artificial intelligence <br> are vast, ranging from healthcare and <br>finance to entertainment and <br> autonomous systems.</p>
+                      <a href="#"><i class="fa-solid fa-arrow-right-long" style="color: #e3e7ed;"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-xxl">
+                <div class="row ">
+                   <div class="col-lg-12">
+                      <h1 class="claints-head" >LET'S SEE</h1>
+                      <h1 class="claints-cont" style="color: white;">Our Clients Opinion<i class="fa fa-ranking-star fa-bounce fa-xl" style="color: #a2e428;padding-left: 1em;text-shadow: none;"></i></h4>
+                      <h4 style="padding-top: 20px;color: #98eb99; background-image: linear-gradient(60deg, #a79699, #3a33a5);
+                      background-clip: text;
+                      color: transparent;">Check out our adoring clients feedback, and we are our <br>clients reputable company.</h3>
+                   </div>
+                  <div class="row" id="list-wrapper">
+                    <div class="col-lg-6 list-item" id="rating-box-1">
+                      <h3>Rathna Groups <hr></h3><br>
+                      <img src="images/img1.png" style="border-radius: 50%;" alt="">
+                      <span style="padding-left: 20px;">Good customer service and on time delivery</span><br>
+                      <ul style="display: flex;flex-direction: row;list-style: none;padding-left: 90px;">
+                        <li><i class="fa-solid fa-star" style="color: #fef606; "></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                        <li><i class="fa-regular fa-star" style="color: #ddd8bb;padding-left: 15px;"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6 list-item" id="rating-box-1">
+                      <h3>Arul Appalam <hr></h3><br>
+                      <img src="images/img1.png" style="border-radius: 50%;" alt="">
+                      <span style="padding-left: 20px;">Try out new ideas and providing they're best</span><br>
+                      <ul style="display: flex;flex-direction: row;list-style: none;padding-left: 90px;">
+                        <li><i class="fa-solid fa-star" style="color: #fef606; "></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                        <li><i class="fa-regular fa-star" style="color: #ddd8bb;padding-left: 15px;"></i></li>
+                      </ul>
+                    </div>
+                    <div class="row reviews-container">
+                      <div class="col-lg-6 list-item" id="rating-box-1">
+                        <h3>Blackhawk Cyberninja <hr></h3><br>
+                        <img src="images/img1.png" style="border-radius: 50%;" alt="">
+                        <span style="padding-left: 20px;">Prompt, exceeded expectations, excellent experience</span><br>
+                        <ul style="display: flex;flex-direction: row;list-style: none;padding-left: 90px;">
+                          <li><i class="fa-solid fa-star" style="color: #fef606; "></i></li>
+                          <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                          <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                          <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                          <li><i class="fa-regular fa-star" style="color: #ddd8bb;padding-left: 15px;"></i></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6 list-item" id="rating-box-1">
+                        <h3>Arul Appalam <hr></h3><br>
+                        <img src="images/img1.png" style="border-radius: 50%;" alt="">
+                        <span style="padding-left: 20px;">Try out new ideas and providing they're best</span><br>
+                        <ul style="display: flex;flex-direction: row;list-style: none;padding-left: 90px;">
+                          <li><i class="fa-solid fa-star" style="color: #fef606; "></i></li>
+                          <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                          <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                          <li><i class="fa-solid fa-star" style="color: #fef606;"></i></li>
+                          <li><i class="fa-regular fa-star" style="color: #ddd8bb;padding-left: 15px;"></i></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row ">
+                      <div class="col-lg-12" id="pagination-container"></div>
+                      <div class="col-lg-4"></div>
+                      <div class="col-lg-4">
+                        <ul id="pagination" data-current-page="1" aria-live="polite">
+                          <li><a class="" href="#">«</a></li>
+                          <li><a href="#"class="active">1</a></li>
+                          <li><a href="#" >2</a></li>
+                          <li><a href="#">3</a></li>
+                          <li><a href="#">4</a></li>
+                          <li><a href="#">5</a></li>
+                          <li><a href="#">6</a></li>
+                          <li><a href="#">7</a></li>
+                          <li><a href="#">»</a></li>
+                        </ul> 
+                      </div>
+                      <div class="col-lg-4"></div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <div class="container-xxl">
+              <div class="row">
+                <div class="col-lg-12">
+                  
+  <span id="heading">Simple automatic slider</span>
+  <div id="slider">  
+  <div class="slides">  
+    <img src="images/client1 (1).png" style="border-radius: 20%;" width="50%" />
+   </div>
+    
+    <div class="slides">  
+    <img src="images/client2.png" width="50%" />
+  </div>
+    
+    <div class="slides">  
+    <img src="images/client3.png" width="50%" />
+  </div> 
+    
+     <div class="slides">  
+    <img src="images/client4.png" class="bird" width="80%" />
+  </div> 
+    
+  <div class="slides">  
+    <img src="images/client2.png" width="50%" />
+  </div>  
+    
+    <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+   </div>
+  
+                </div>
+              </div>
+             </div>
+              <div class="container-xxl " style="margin-top: 5em;" id="baground-img-container" >
+                <div class="row" >
+                  <div class="col-lg-12" >
+                    <h1 class="web-merit">Download Our<span class="text_tiel"> Best</span> Apps </h1>
+                    <h4 class="web-merit-content">Discover our top applications and realize our innovative and imaginative ideas. <br> Feel the sensation of using our applications in your hands.</h4>
+                    <div class="btn app-store"><i class="fa-brands fa-apple"></i> App store</div>
+                    <div class="btn play-store"><i class="fa-brands fa-google-play"></i> Google play</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row" >
+                <div class="col-12 mt-5 ">
+                  <div class="row  "  id="ii">
+                    <div class="col-6 col-lg-4">
+                      <a href="/"> <img
+                        src="https://leadibs.com/assets/images/logo/logo.png" loading="eager"
+                        alt="Logo xMoney White" class="image_absolute-contain is-color-logo"
+                        id="Libs-logo2">
+                      </a>
+                      <h3 class="text_grey"> With our digital experience,you can begin to build <br>your business career.</h3>
+                      <h6 class="Address-txt">Address: </h6>
+                      <p class="Address-content"> No-6, 7th st, SVS Nagar, Valasaravakkam,<br> Chennai-600087.</p>
+                      <h6 class="Address-txt">Address: </h6>
+                      <p class="Address-content"> No-10, 3rd st, Kadampadi Amman Kovil street, <br>Valasaravakkam, Chennai-600087.</p>
+                      <div class="email-head">Email: <span class="email-txt">leadibs@gmail.com</span></div>
+                      <div class="call-head">Call: <span class="number">+91 8940 38 2000</span></div>
+                      <h4 class="social_media-link">Follow us:</h4>
+                     <div class="social_layer">
+                      <a href="#"><i class="fa-brands fa-facebook fa-fade fa-xl" style="color: #f5eff5;"></i></a>
+                      <a href="#"> <i class="fa-brands fa-instagram fa-flip fa-xl" style="color: #eff1f6;"></i></a>
+                      <a href="#"><i class="fa-brands fa-linkedin fa-bounce fa-xl" style="color: #ebeef4;"></i></a>
+                      <a href="#"><i class="fa-brands fa-x-twitter fa-xl fa-flip"  style="color: #ebeef4;"></i></a>
+                     </div>
+                    </div>
+                    <div class="col-6 col-lg-2" style="margin-top: 2em !important;">
+                      <ul class="ul_deatils">Quick Links
+                        <a href="#"><li class="li_deatails">About us</li></a>
+                        <a href="#"> <li class="li_deatails">Our blogs</li></a>
+                        <a href="#"><li class="li_deatails">Gallery</li></a>
+                        <a href="#"><li class="li_deatails">Technologies</li></a>
+                        <a href="#"><li class="li_deatails">Methodology</li></a>
+                        <a href="#"><li class="li_deatails">Location in map</li></a>
+                      </ul>
+                    </div>
+                    <div class="col-6 col-lg-3" style="margin-top: 2em !important;" >
+                      <ul class="ul_deatils">For Candidates
+                        <a href="#"><li class="li_deatails">Upload resume</li></a>
+                        <a href="#"> <li class="li_deatails">Explore jobs</li></a>
+                        <a href="#"><li class="li_deatails">Application status</li></a>
+                        <a href="#"><li class="li_deatails">Featured jobs</li></a>
+                        <a href="#"><li class="li_deatails">Urgently required</li></a>
+                      </ul>
+                    </div>
+                    <div class="col-6 col-lg-3" style="margin-top: 2em !important;">
+                      <ul class="ul_deatils">Join Our Newsletter
+                        <li class="News-let-content">Subscribe to get the latest jobs posted, candidates...</li>
+                        <input type="email" class="form-control" placeholder="Your email address" required>
+                        <div class="btn subcribe-btn" onclick="subscribeNow" >Subscribe Now!</div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="copy_rights"><i class="fa-solid fa-copyright fa-xl" ></i>  2024 LIBS. All rights reserved.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+ 
+
+  
+  
+    <div class="js-scroll">
+        
+    </div>
+ 
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const body = document.body,
+    jsScroll = document.getElementsByClassName('js-scroll')[0],
+    height = jsScroll.getBoundingClientRect().height - 1,
+    speed = 0.05
+
+    var offset = 0
+
+    body.style.height = Math.floor(height) + "px"
+
+  function smoothScroll() {
+  offset += (window.pageYOffset - offset) * speed
+  
+  var scroll = "translateY(-" + offset + "px) translateZ(0)"
+  jsScroll.style.transform = scroll
+  
+  raf = requestAnimationFrame(smoothScroll)
+ }
+ smoothScroll()
+
+</script> 
+
+
+ 
+
+
+
+
+<script>
+  var index = 0;
+var slides = document.querySelectorAll(".slides");
+var dot = document.querySelectorAll(".dot");
+
+function changeSlide(){
+
+  if(index<0){
+    index = slides.length-1;
+  }
+  
+  if(index>slides.length-1){
+    index = 0;
+  }
+  
+  for(let i=0;i<slides.length;i++){
+    slides[i].style.display = "none";
+    dot[i].classList.remove("active");
+  }
+  
+  slides[index].style.display= "block";
+  dot[index].classList.add("active");
+  
+  index++;
+  
+  setTimeout(changeSlide,4000);
+  
+}
+
+changeSlide();
+</script>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="main.js"></script>
+
+
+<script></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->       
+</body>
+
+</html>

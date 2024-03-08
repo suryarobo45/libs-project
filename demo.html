@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delayed Redirect</title>
+  <style>
+    body {
+    margin: 0;
+    padding: 0;
+}
+
+.full-page-scroll {
+    overflow: hidden; /* Hide scrollbars */
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    height: 100vh; /* Make each section take up the full viewport height */
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="full-page-scroll">
+    <section id="section1" class="section">
+        <h2>Section 1</h2>
+        <!-- Content for Section 1 goes here -->
+    </section>
+
+    <section id="section2" class="section">
+        <h2>Section 2</h2>
+        <!-- Content for Section 2 goes here -->
+    </section>
+
+    <section id="section3" class="section">
+        <h2>Section 3</h2>
+        <!-- Content for Section 3 goes here -->
+    </section>
+</div>
+
+  <script>
+   document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('.section');
+
+    function smoothScroll(targetSection) {
+        document.querySelector('.full-page-scroll').scrollTo({
+            top: targetSection.offsetTop,
+            behavior: 'smooth'
+        });
+    }
+
+    // Add event listeners for each section to trigger smooth scrolling
+    sections.forEach(section => {
+        section.addEventListener('click', function() {
+            smoothScroll(section);
+        });
+    });
+});
+
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
